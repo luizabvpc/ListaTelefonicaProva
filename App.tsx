@@ -12,15 +12,15 @@ export default function App()
   return <NavigationContainer>
     <Stack.Navigator>
       <Stack.Screen
-        name= "Lista"
+        name= "ListaContatos"
         component={ListaContatos}
       />
       <Stack.Screen
-        name="Adicionar"
+        name="AdicionarContato"
         component={AdicionarContato}
       />
       <Stack.Screen
-        name= "Editar"
+        name= "EditarContato"
         component={EditarContato}
       />
     </Stack.Navigator>
